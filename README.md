@@ -1,13 +1,9 @@
 # KenNav 导航页
+修改自`https://github.com/AkenClub/KenNav`
 
 ## 在线地址
 
-主地址：https://nav.86440883.xyz/
-
-备用地址：https://nav.hiken.me
-
-GitHubPages：https://akenclub.github.io/KenNav/
-
+https://chushu1945.github.io/KenNav/
 
 ## 介绍
 
