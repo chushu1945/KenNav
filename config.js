@@ -95,9 +95,15 @@ const bookmarkConfig = {
           icon: "📂",
         },
         {
-          id: "tools_m73384vu_df48tyb7g",
-          name: "Ping检测",
+          id: "tools_6",
+          name: "IP检测",
           url: "https://ping0.cc",
+          icon: "🌐",
+        },
+        {
+          id: "tools_7",
+          name: "Ping检测",
+          url: "https://www.itdog.cn/",
           icon: "🌐",
         },
       ],
