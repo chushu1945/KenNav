@@ -18,8 +18,8 @@ const bookmarkConfig = {
         },
         {
           id: "quick_3",
-          url: "https://nodeseek.com",  
-          name: "Nodeseek",  
+          url: "https://chatgpt.com",
+          name: "Chatgpt",
           icon: "💬",
         },
       ],
@@ -52,6 +52,12 @@ const bookmarkConfig = {
           name: "LearnKu",
           icon: "💬",
         },
+        {
+          id: "forum_5",
+          url: "https://nodeseek.com",
+          name: "Nodeseek",
+          icon: "💬",
+        },
       ],
     },
     {
@@ -61,7 +67,7 @@ const bookmarkConfig = {
         {
           id: "tools_1",
           url: "https://translate.google.com",
-          name: "Google 翻译",  
+          name: "Google 翻译",
           icon: "🌐",
         },
         {
@@ -84,8 +90,8 @@ const bookmarkConfig = {
         },
         {
           id: "tools_5",
-          url: "https://webdav.952963.xyz/",  
-          name: "Webdav",  
+          url: "https://webdav.952963.xyz/",
+          name: "Webdav",
           icon: "📂",
         },
         {
@@ -326,7 +332,7 @@ function simpleDecrypt(encrypted) {
   try {
     const text = atob(encrypted);
     const key = ENCRYPTION_KEY;
-    let result = "";  
+    let result = "";
     for (let i = 0; i < text.length; i++) {
       const charCode = text.charCodeAt(i) ^ key.charCodeAt(i % key.length);
       result += String.fromCharCode(charCode);
@@ -345,7 +351,7 @@ async function saveWebDAVConfig(config) {
     ...config,
     password: simpleEncrypt(config.password),
   };
-  localStorage.setItem(  
+  localStorage.setItem(
     STORAGE_KEYS.WEBDAV_CONFIG,
     JSON.stringify(encryptedConfig)
   );
@@ -365,13 +371,13 @@ async function getWebDAVConfig() {
 }
 
 // 导出这些函数和变量
-export {                
-  bookmarkConfig,      
+export {
+  bookmarkConfig,
   defaultSearchEngines,
-  getSearchEngines,  
+  getSearchEngines,
   getStoredSearchEngine,
-  saveSearchEngineSelection,  
-  getQuickAccessLinks,  
+  saveSearchEngineSelection,
+  getQuickAccessLinks,
   saveQuickAccessLink,
   deleteQuickAccessLink,
   updateQuickAccessLink,
