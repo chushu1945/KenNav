@@ -22,6 +22,12 @@ const bookmarkConfig = {
           name: "Chatgpt",
           icon: "💬",
         },
+        {
+          id: "quick_4",
+          url: "https://cloudflare.com",
+          name: "Cloudflare",
+          icon: "☁️",
+        },
       ],
     },
     {
