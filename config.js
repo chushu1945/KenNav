@@ -28,6 +28,12 @@ const bookmarkConfig = {
           name: "Cloudflare",
           icon: "☁️",
         },
+        {
+          id: "quick_5",
+          url: "https://lsky.952963.xyz",
+          name: "Lsky",
+          icon: "💌",
+        },
       ],
     },
     {
