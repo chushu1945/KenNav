@@ -18,8 +18,8 @@ const bookmarkConfig = {
         },
         {
           id: "quick_3",
-          url: "https://chatgpt.com",
-          name: "Chatgpt",
+          url: "https://nodeseek.com",
+          name: "Nodeseek",
           icon: "💬",
         },
         {
@@ -62,12 +62,6 @@ const bookmarkConfig = {
           id: "forum_4",
           url: "https://learnku.com/",
           name: "LearnKu",
-          icon: "💬",
-        },
-        {
-          id: "forum_5",
-          url: "https://nodeseek.com",
-          name: "Nodeseek",
           icon: "💬",
         },
       ],
