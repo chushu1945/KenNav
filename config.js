@@ -118,6 +118,12 @@ const bookmarkConfig = {
           url: "https://www.itdog.cn/",
           icon: "🌐",
         },
+        {
+          id: "tools_8",
+          name: "HiFiNi",
+          url: "https://www.hifini.com/",
+          icon: "🎵",
+        },
       ],
     },
     {
