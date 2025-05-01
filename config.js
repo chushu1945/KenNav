@@ -118,6 +118,12 @@ const bookmarkConfig = {
           url: "https://demo.952963.xyz/2024/11/05/tips/",
           icon: "📋",
         },
+        {
+          id: "tools_10",
+          name: "sb配置生成",
+          url: "https://chushu1945.github.io/singbox-generate/",
+          icon: "📈",
+        },
       ],
     },
     {
