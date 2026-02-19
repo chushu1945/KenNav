@@ -34,6 +34,12 @@ const bookmarkConfig = {
           name: "Lsky",
           icon: "💌",
         },
+        {
+          id: "quick_6",
+          url: "https://huggingface.co/",
+          name: "Huggingface",
+          icon: "🤗",
+        },
       ],
     },
     {
